@@ -7,7 +7,7 @@
 
 // AI SETTINGS
 #define ACTIVE_AI true
-#define MAX_DEPTH 10 // don't exceed 11 unless you want to wait an hour per move
+#define MAX_DEPTH 9 // don't exceed 11 unless you want to wait an hour per move
 #define DEMO_MODE false // makes the AI face itself
 #define HARDCODED_OPENINGS true // doesn't call minimax in specific early game situations (saves processing time)
 #define DEPTH_SCALING true // experimental feature that makes the max depth increase exponentially as columns fill up (don't combine with high initial max depth)
